@@ -1,0 +1,15 @@
+
+.page-banner-container h1{
+    color: var(--cor-texto-banner);
+    background-color:var(--cor-bg-banner);
+    padding: var(--espaco-interno-banner);
+    font-size: var(--tamanho-fonte-banner);
+    text-align: center;
+}
+.page-banner-container{
+    margin-top:var(--margem-acima-banner);
+    margin-bottom: var(--margem-abaixo-banner);
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-bg-banner);
+}

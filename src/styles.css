@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    --cor-bg-banner:rgb(150, 85, 85);
+    --tamanho-fonte-banner:10vw;
+    --espaco-interno-banner:2%;
+    --margem-acima-banner:5pt;
+    --margem-abaixo-banner:5pt;
+    --cor-texto-banner:white;
+}
+*:link{
+    text-decoration: none;
+}
+body{
+    background-color: #eee;
+}
