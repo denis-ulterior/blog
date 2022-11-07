@@ -4,10 +4,10 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;
-    --cor-bg-banner:rgb(150, 85, 85);
+    --cor-bg-banner:rgb(98, 98, 98);
     --tamanho-fonte-banner:10vw;
     --espaco-interno-banner:2%;
-    --margem-acima-banner:5pt;
+    --margem-acima-banner:0pt;
     --margem-abaixo-banner:5pt;
     --cor-texto-banner:white;
 }

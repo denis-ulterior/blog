@@ -12,8 +12,8 @@ flex-direction: column;
 }
 .big-card-photo img{
     border-bottom: rgb(152, 152, 152) solid 2px;
-    height: 250pt;
-    min-height: 250pt;
+    height: 255pt;
+    min-height: 255pt;
     border-radius: 5pt;
 }
 .big-card-title{
