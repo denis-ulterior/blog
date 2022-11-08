@@ -1,0 +1,9 @@
+@media (min-width: 1200px){
+    .container-big-card{
+        width: 320pt;
+    }
+    .big-card-photo img{
+        height: 240pt;
+        min-height: 240pt;
+    }
+}

@@ -1,5 +1,5 @@
 .container-small-card{
-    width: 340pt;
+    width: 260pt;
     border: 1px solid rgb(224, 224, 224);
     padding: 6pt;
     background-color: white;
@@ -12,8 +12,8 @@
 }
 .small-card-photo img{
     border-bottom: rgb(152, 152, 152) solid 2px;
-    height: 80pt;
-    min-height: 80pt;
+    max-height: 50pt;
+    min-height: 50pt;
     border-radius: 5pt;
     margin-bottom: 2pt;
 }
@@ -27,7 +27,7 @@
 }
 .small-card-description{
     padding-left: 10pt;
-    width: 220pt;
+    width: 180pt;
     color: rgb(79, 79, 79);
     margin-bottom: 10pt;
     font-size: 8pt;

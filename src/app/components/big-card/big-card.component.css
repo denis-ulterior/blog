@@ -3,7 +3,7 @@
 }
 .container-big-card{
 border: rgb(152, 152, 152) solid 2px;
-width: 340pt;
+width: 260pt;
 background-color: rgb(255, 255, 255);
 display: flex;
 align-items: center;
@@ -12,8 +12,8 @@ flex-direction: column;
 }
 .big-card-photo img{
     border-bottom: rgb(152, 152, 152) solid 2px;
-    height: 255pt;
-    min-height: 255pt;
+    height: 195pt;
+    min-height: 195pt;
     border-radius: 5pt;
 }
 .big-card-title{

@@ -1,0 +1,8 @@
+@media (min-width: 1200px){
+    .container-small-card{
+        width: 320pt;
+    }
+    .small-card-photo img{
+    min-height: 75pt;
+    }
+}
