@@ -16,10 +16,3 @@
     align-self: start;
     
 }
-header{
-    background-color: rgb(226, 228, 231);
-    display: flex;
-    justify-content: center;
-    padding-bottom: 0pt;
-    margin-bottom: 0pt;
-}

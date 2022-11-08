@@ -1,0 +1,38 @@
+.container-content{
+    border: 1px solid white;
+    width: 80%;
+    min-width: 260pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25pt;
+    padding: 25pt;
+    border-radius: 5pt;
+    background-color: white;
+    color: rgb(77, 77, 77);
+}
+.content-cover img{
+    max-width: 100%;
+    
+}
+.content-cover{
+    text-align: center;
+}
+.content-title{
+    margin-top: 25pt;
+    margin-bottom: 15pt;
+    
+}
+.content-description{
+    text-align: justify;
+}
+.return{
+    text-align: end;
+    margin-bottom: 10pt;
+}
+.return a{
+    padding: 8pt;
+    color: white;
+    background-color: rgb(137, 137, 137);
+    border-radius: 2pt;
+    
+}
