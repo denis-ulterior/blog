@@ -17,18 +17,24 @@
     border-radius: 5pt;
     margin-bottom: 2pt;
 }
-.small-card-title{
+.small-card-title h1{
     padding-left: 5pt;
     color:var(--cor-fonte-titulo);
     text-align: left;
-    font-size: 7pt;
+    font-size: 12pt;
     padding-top: 10pt;
     padding-left: 10pt;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
 }
-.small-card-description{
+.small-card-description p{
     padding-left: 10pt;
     width: 180pt;
     color: rgb(79, 79, 79);
     margin-bottom: 10pt;
     font-size: 8pt;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
 }

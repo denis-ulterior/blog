@@ -1,9 +1,10 @@
 *{
     --cor-fonte-titulo:rgb(51, 51, 51);
+    --tamanho-card: 260pt;
 }
 .container-big-card{
 border: rgb(152, 152, 152) solid 2px;
-width: 260pt;
+width: --tamanho-card;
 background-color: rgb(255, 255, 255);
 display: flex;
 align-items: center;
@@ -16,15 +17,24 @@ flex-direction: column;
     min-height: 195pt;
     border-radius: 5pt;
 }
-.big-card-title{
-    width: 100%;
+.big-card-title h1{
+    width: --tamanho-card ;
     padding-left: 5pt;
+    padding-right: 5pt;
     color:var(--cor-fonte-titulo);
     text-align: left;
-    font-size: 12pt;
+    font-size: 19pt;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
 }
-.big-card-description{
+.big-card-description p{
     padding-left: 5pt;
+    padding-right: 5pt;
     color: rgb(79, 79, 79);
     margin-bottom: 10pt;
+    white-space: nowrap;
+    overflow: hidden;
+    width: --tamanho-card;
+    text-overflow: ellipsis;
 }
